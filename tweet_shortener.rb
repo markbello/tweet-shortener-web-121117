@@ -9,8 +9,10 @@ def dictionary = {
   "you" => "u",
   "at" => "@",
   "and" => "&"}
-  dictionary
+  puts dictionary
 end
+
+dictionary
 
 def word_substituter(tweet)
   dictionary.keys
