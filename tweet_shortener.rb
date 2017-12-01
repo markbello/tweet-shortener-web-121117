@@ -12,9 +12,10 @@ def dictionary
 end
 
 def word_substituter(word)
-    if (dictionary.keys.include?(word))
+    if dictionary.keys.include?(word)
       word = dictionary[word]
     end
+    word
 end
 
 word_substituter
