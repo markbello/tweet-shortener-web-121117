@@ -10,3 +10,7 @@ dictionary = {
   "at" => "@",
   "and" => "&"
 }
+
+def word_substituter(tweet)
+  dictionary.key
+end
