@@ -9,7 +9,6 @@ def dictionary
   "you" => "u",
   "at" => "@",
   "and" => "&"}
-  puts dictionary
 end
 
 dictionary
