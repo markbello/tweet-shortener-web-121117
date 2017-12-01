@@ -18,4 +18,4 @@ def word_substituter(word)
     word
 end
 
-word_substituter
+word_substituter("four")
