@@ -13,12 +13,12 @@ end
 
 def word_substituter(tweet)
   test_array = tweet.split
-    test_array.each do |word|
-      if dictionary.keys.include?(word)
-        word = dictionary[word]
-      end
+  test_array.each do |word|
+    if dictionary.keys.include?(word)
+      word = dictionary[word]
     end
-    test_array
+  end
+  test_array
 end
 
 def tweet
