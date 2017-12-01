@@ -18,6 +18,7 @@ def word_substituter(tweet)
       word = dictionary[word]
     end
   end
+  tweet_array.join(" ")
 end
 
 word_substituter
