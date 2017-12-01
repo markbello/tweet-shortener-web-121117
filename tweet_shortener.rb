@@ -30,7 +30,6 @@ def bulk_tweet_shortener(tweets)
   tweets.each do |tweet|
     new_tweet = word_substituter(tweet)
     new_tweets.push(new_tweet)
-    puts new_tweet
   end
   new_tweets
 end
