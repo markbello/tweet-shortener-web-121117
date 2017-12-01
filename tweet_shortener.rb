@@ -24,3 +24,11 @@ def word_substituter(tweet)
   end
   new_array.join(" ")
 end
+
+def bulk_tweet_shortener(tweets)
+  new_tweets = []
+  tweets.each do |tweet|
+    new_tweets.push[word_substituter(tweet)]
+  end
+  new_tweets
+end
