@@ -20,5 +20,3 @@ def word_substituter(tweet)
   end
   test_array
 end
-
-def tweet
