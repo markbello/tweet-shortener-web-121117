@@ -11,14 +11,10 @@ def dictionary
   "and" => "&"}
 end
 
-def word_substituter(tweet)
-  tweet_array = tweet.split
-  tweet_array.each do |word|
-    if (dictionary.keys & word)
+def word_substituter(word)
+    if (dictionary.keys.include?(word))
       word = dictionary[word]
     end
-  end
-  tweet_array.join(" ")
 end
 
 word_substituter
