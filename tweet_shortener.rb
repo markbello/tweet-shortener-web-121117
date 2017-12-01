@@ -49,4 +49,5 @@ def shortened_tweet_truncator(tweet)
     new_tweet = new_tweet.slice(0..136)
     new_tweet << "..."
   end
+  new_tweet
 end
